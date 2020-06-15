@@ -1,5 +1,6 @@
 body{
-
+  background-color: #eee;
+ font-family: sans-serif;
 }
 
 #header-img{
@@ -22,26 +23,35 @@ body{
 }
 
 .nav-link{
-  font-size: 30px;
+  font-size: 50px;
   color:black;
 }
 
 @media only screen and (max-width: 600px) {
-  #body-container{
+  #bodyContainer{
   position:absolute;
   top:200px;
   z-index:1;
   }
 }
 
-#body-container{
-position:absolute;
-top:200px;
-z-index:1;
+#bodyContainer{
+  font-size:20px;
+  position:absolute;
+  top:200px;
+  z-index:1;
+  left: 50%;
+  transform: translate(-50%);
 }
+
 td{
-  padding-left: 30px;  
+  padding-left: 30px;
 }
+
 .table{
     font-size: 25px;
+}
+
+#form{
+  padding-bottom: 50px;
 }
