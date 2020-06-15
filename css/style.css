@@ -1,8 +1,23 @@
+body{
+
+}
+
 #header-img{
  width:200px;
- height:auto;
- padding:20px;
+ height:150px;
+ padding:5px;
 }
+
 #nav-bar{
-    padding: auto;
+  border: 5px solid #ccc;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  background-color: yellow;
+  border-radius: 30px;
+}
+
+.nav-link{
+  font-size: 30px;
+  color:black;
 }
